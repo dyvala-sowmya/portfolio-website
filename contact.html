@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <button class="theme-btn" onclick="toggleTheme()">
+Theme
+</button>
 
 <header>
     <h1>Contact Me</h1>
@@ -61,6 +64,11 @@
 <footer>
     <p>&copy; 2026 Dyvala Sowmya</p>
 </footer>
+<script>
+function toggleTheme(){
+    document.body.classList.toggle("dark-mode");
+}
+</script>
 
 </body>
 </html>
